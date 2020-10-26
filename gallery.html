@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        nav ul li a {
+            color: rgb(1, 41, 41) !important;
+            font-weight: bold;
+            text-decoration: none;
+
+        }
+
+        nav ul,
+        nav {
+            display: flex;
+        }
+
+        nav ul {
+            justify-content: space-evenly;
+            list-style: none;
+            width: 100%;
+        }
+
+        .container {
+            width: 800px;
+            height: 400px;
+            display: flex;
+            overflow-x: auto;
+
+
+
+        }
+
+        .myslide {
+            width: 300px;
+            flex-shrink: 0;
+            height: 100%;
+            -webkit-overflow-scrolling: touch;
+
+
+
+        }
+
+        .wrap {
+            text-align: center;
+        }
+
+        html,
+        body {
+            background-image: url(rwandaTourism.jpg);
+            height: 100%;
+            /* filter: blur(8px); 
+        -webkit-filter: blur(8px);  */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+         
+        }
+        #button1{
+          border-radius: 50%;
+          
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+
+        <div class="drop">&#9967 THEDOT </div>
+
+
+        <ul>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="team.html">Team</a></li>
+
+        </ul>
+
+    </nav>
+    <div class="wrap">
+        <button id="button1"><a href="#slide1">1</a></button>
+        <button id="button1"><a href="#slide2">2</a></button>
+        <button id="button1"> <a href="#slide3">3</a></button>
+        <button id="button1"><a href="#slide4">4</a> </button>
+
+        <button>
+            <div class="container">
+
+                <div class="myslide" id="slide1">1
+                    <!-- <img src="kigali-city-rwanda.jpg"> -->
+
+                    <img src="https://picsum.photos/200/200">
+                    <!-- <img src="sample.jpg" alt=""> -->
+                </div>
+
+                <div class="myslide" id="slide2">2
+                    <img src="cake pic.jfif">
+                    <!-- <img src="sample.jpg" alt=""> -->
+
+                </div>
+
+                <div class="myslide" id="slide3">3
+                    <img src="https://picsum.photos/200/200">
+
+                </div>
+
+
+                <div class="myslide" id="slide4">4
+                    <img src="cake pic.jfif">
+
+                </div>
+
+            </div>
+        </button>
+    </div>
+
+
+</body>
+
+</html>

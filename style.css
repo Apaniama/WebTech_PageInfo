@@ -1,0 +1,79 @@
+nav ul li a{
+    color: rgb(1, 41, 41)!important;
+    font-weight: bold;
+    text-decoration: none;
+  
+} 
+nav ul, nav{
+    display: flex;
+}
+
+nav ul{
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+} 
+
+#mainSection{
+    display: flex;
+    font-size: x-large;
+    margin-left:  2rem;
+
+
+}
+#FeaturesSection{
+    text-align: center;
+}
+#divSection{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+}
+#divGrid{
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr;
+    gap: 1rem;
+   
+}
+.profileCard{
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 50%;
+    height: 60%;
+}
+
+.profileCard img{
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    
+
+    
+}
+
+body{
+    font-family: Calibri;
+    background-color: gainsboro
+}
+.myslide{
+    font-weight: bold;
+    border-radius: 1rem;
+    align-items: center;
+    width: 80%;
+}
+
+div{
+    margin: 2rem;
+    padding-left: 3rem;
+}
+.drop{
+    /* border: solid #1d2c28; */
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 3px 3px 3px #948e8e;
+    border-radius: 0% 100% 100% 100%;
+    transform: rotate(45deg);
+}
